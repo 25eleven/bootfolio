@@ -1,0 +1,359 @@
+@import url(http://fonts.googleapis.com/css?family=Metrophobic);
+@import url(http://fonts.googleapis.com/css?family=Pathway+Gothic+One);
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+body {
+  padding-top: 15px;
+  padding-bottom: 30px;
+  background-color: #074247;
+  color: #FFF
+}
+
+body * {
+	border-radius: 0px !important;
+}
+
+.panel, .panel-default > .panel-heading, .panel-primary > .panel-heading, .panel-info > .panel-heading, .panel-success > .panel-heading, .panel-warning > .panel-heading, .panel-danger > .panel-heading, .panel-primary > .panel-heading, .panel-heading,.well,.presentation
+{
+	background-image: none;
+}
+
+.panel
+{
+	border: 1px #EEE solid;
+}
+
+
+.theme-dropdown .dropdown-menu {
+  display: block;
+  position: static;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+
+h1, h2, h3, h4, h5, h6, h7, .btn
+{
+	font-family: 'Pathway Gothic One', sans-serif;
+	letter-spacing: 1px;
+}
+
+.title
+{
+	text-transform: uppercase;
+}
+
+p
+{
+	line-height:1.5em;
+	
+}
+
+h4
+{
+	font-size: 1.59em;
+}
+
+h5
+{
+	font-size: 1.55em;
+}
+h6
+{
+	font-size: 1.5em;
+}
+
+
+/*NAVIGATION*/
+.navbar-default .navbar-nav > .active > a {
+    background-image: none;
+    box-shadow: 0px;
+}
+
+
+ul.dropdown-menu
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+
+
+.navbar-default, .navbar, .navbar-collapse ,.collapse, .navbar-default .container
+{
+	background-image: none !important;
+	background-repeat: none;
+	box-shadow: none;
+	border-radius: 0px;
+	border: solid 0px #FFF;
+	background-color: #074247;
+	outline-color: transparent;
+}
+
+.navbar-nav li
+{
+	margin-right: 10px;
+	
+}
+
+.nav li.active
+{
+	background-color: #2FAACE;
+	color: #FFF;
+	
+}
+
+.navbar-brand
+{
+	font-family: 'Pacifico', cursive;
+	font-size: 3em;
+	padding-left: 0px; 
+	margin-left: 0px;
+	margin-right: 20px;
+	color: Lime;
+}
+
+.navbar-default .navbar-brand
+{
+	color: Lime;
+}
+
+.navbar-default .navbar-brand:hover
+{
+	color: Lime;
+}
+.alert, .progress-bar, .progress
+{
+	border-radius: 0px;
+	background-image: none;
+	background-color: solid;
+	box-shadow: none;
+}
+
+.container .jumbotron 
+{
+	background-color: lightblue;
+	border-radius: 0px 0px 0px 0px;
+	padding-top: 80px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	border: solid 1px Blue;
+	height: 300px;
+	position: relative;
+	background-image: url(nebulajumbo.jpg)
+}
+
+
+.jumbobox
+{
+	padding: 15px;
+	width: 350px;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	
+	
+}
+
+.jumbobox h1
+{
+	font-size: 2em;
+	padding: 0px;
+}
+.jumbobox p
+{
+	font-size: .6em;
+}
+
+.row 
+{
+	margin-left: 0px;
+}
+
+.tile.col-2
+{
+	width: 180px;
+}
+
+.tile.col-4
+{
+	width: 375px;
+}
+
+
+.tile
+{
+	margin-right: 10px;
+	height: 180px;
+	min-width: 180px;
+	padding-top: 10px;
+}
+
+
+.tile h3
+{
+	margin: 0px;
+	
+}
+
+.btn 
+{
+	border-radius: 0px;
+	background-color: transparent;
+	background-image: none;
+}
+
+.btn :hover
+{
+	border-radius: 0px;
+	background-color: transparent;
+	background-image: none;
+}
+
+/* LAST TO OVERWRITE*/
+.accent1, .navbar-nav li, .nav  li a, .navbar-default .navbar-nav > li > a,
+.list-group-item.active, .list-group-item.active:hover, .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover
+{
+	background-image: none;
+	background-color: #BED148;
+	color: #FFF;	
+}
+.accent2, .nav  li a, .navbar-default .navbar-nav > li > a:hover, .navbar-nav li:hover, .navbar-default .navbar-nav > .active > a:hover,
+a.list-group-item:hover, .dropdown-menu > li > a:hover
+{
+	background-image: none;
+	background-color: #11947D;
+	color: #000;
+}
+.accent3, .navbar-default .navbar-nav > .active > a
+{
+	background-image: none;
+	background-color: #4EA1E4;
+	color: #000;
+}
+.accent4
+{
+	background-image: none;
+	background-color: #E8639D;
+	color: #FFF;
+}
+
+.light
+{
+	
+	background-color: #FFF;
+	color: #000;
+	border: solid 1px #000;
+}
+
+.dark,.dark:hover
+{
+	background-color: #000;
+	color: #FFF;
+	border: solid 1px #FFF;
+}
+
+.invert1, .invert1:hover
+{
+	border: solid 1px #2FAACE;
+	color: #2FAACE;
+}
+.invert2, .invert2:hover
+{
+	border: solid 1px #03EBA6;
+	color: #03EBA6;
+}
+.invert3, .invert3:hover
+{
+	border: solid 1px #FF4848;
+	color: #FF4848;
+}
+.invert4,.invert4:hover
+{
+	border: solid 1px #9669FE;
+	color: #9669FE;
+}
+
+.btn-warning
+{
+	background-color: Red;
+	color: #FFF;
+}
+
+.btn-warning:hover
+{
+	background-color: Red;
+	color: #000;
+}
+
+.btn .icon-stack, .btn .icon-stack-base, .btn .icon
+{
+	padding: 0px;
+	margin: 0px;
+	height: 1em;
+	line-height: .7em;
+	font-size: .8em;
+}
+.btn .icon-stack .icon-spin
+{
+	line-height: .9em;
+	margin-top: -2px;
+}
+
+ !previous .icon-xxl
+{
+	padding-top: 0px;
+}
+
+.tile .icon-xxl
+{
+		font-size: 4em;
+		float: left;
+		margin-right: 15px;
+		padding: 0px;
+		
+}
+
+.tile p
+{
+	clear: both;
+	margin-top: 10px;
+}
+
+.img-thumbnail
+{
+	padding: 0px;
+	border: solid 2px #2FAACE;
+}
+
+.tile.img-thumbnail
+{
+	padding: 0px;
+}
+.tile.img-thumbnail p, .tile.img-thumbnail h3
+{
+	position: absolute;
+	padding: 10px;
+}
+.tile.img-thumbnail p
+{
+	margin-top: 30px;
+	clear: left;
+}
+
+
+.tile.img-thumbnail img
+{
+	border: none;
+	padding: 0px;
+	margin: 0px;
+	max-height: 175px
+}
+
+.list-group-item, .list-group-item.active, .list-group-item.active .list-group-item-text, .panel-body, .well
+{
+	color: #000;
+}
